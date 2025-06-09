@@ -1,0 +1,41 @@
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints (if ever used)
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode and JetBrains IDE settings
+.vscode/
+.idea/
+
+# Output files
+*.jpg
+*.png
+*.jpeg
+*.mp4
+output.jpg
+outputs/
+
+# Logs and dumps
+*.log
+*.out
+*.err
+
+# PyTorch cache (if used for downloading models)
+~/.cache/torch/
+
+# Misc
+*.bak
+*.swp
