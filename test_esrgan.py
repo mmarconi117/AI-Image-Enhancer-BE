@@ -15,7 +15,7 @@ model = RealESRGANer(
     scale=4,
     model_path="weights/RealESRGAN_x4plus.pth",
     model=RRDBNet(num_in_ch=3, num_out_ch=3, num_feat=64, num_block=23, num_grow_ch=32),
-    tile=128,   # <--- add this
+    tile=160,   # <--- add this
     tile_pad=10,
     pre_pad=0,
     half=False
